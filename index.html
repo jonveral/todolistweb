@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="info-container left-info">
+        <div id="dateTime"></div>
+        <div id="location"></div>
+    </div>
+    <div class="container">
+        <h2>To-Do List</h2>
+        <input type="text" id="taskInput" placeholder="Tambahkan tugas...">
+        <button onclick="addTask()">Tambah</button>
+        <ul id="taskList"></ul>
+        <button class="clear-all" onclick="clearAll()">Hapus Semua</button>
+    </div>
+    <div class="info-container right-info">
+        <div id="motivation"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
